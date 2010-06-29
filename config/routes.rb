@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :customers
+
   map.resources :vehicle_versions
 
   map.resources :vehicles

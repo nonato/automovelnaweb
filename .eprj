@@ -23,7 +23,7 @@
             <key>custom</key>
             <string>..\projeto_automoveis\app\models\customer.rb</string>
             <key>env</key>
-            <string>..\projeto_automoveis\config\environment.rb</string>
+            <string>config\environment.rb</string>
             <key>inde</key>
             <string>..\projeto_automoveis\app\views\admin_area\forum_categories\index.html.erb</string>
             <key>index</key>
@@ -58,6 +58,8 @@
             <string>..\blog_teste\vendor\plugins\resource_controller\test\db\schema.rb</string>
             <key>sty</key>
             <string>..\projeto_automoveis\public\stylesheets\style.css</string>
+            <key>user</key>
+            <string>app\models\user.rb</string>
             <key>users</key>
             <string>..\grid_teste\app\views\layouts\users.html.erb</string>
             <key>vehi</key>

@@ -2,6 +2,7 @@ class CreateMakers < ActiveRecord::Migration
   def self.up
     create_table :makers do |t|
       t.string :name
+      t.string :cached_slug
 
       t.timestamps
     end

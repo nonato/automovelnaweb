@@ -4,7 +4,9 @@ class CreateVehicles < ActiveRecord::Migration
       t.string :model
       t.integer :class_type
       t.references :maker
+      t.string :cached_slug
 
+      
       t.timestamps
     end
     
