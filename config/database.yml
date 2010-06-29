@@ -1,0 +1,21 @@
+development:
+  adapter: mysql
+  database: library_development
+  username: root
+  password: [password]
+  host: localhost
+  encoding: utf8
+test:
+  adapter: mysql
+  database: library_test
+  username: root
+  password: [password]
+  host: localhost
+  encoding: utf8
+production:
+  adapter: mysql
+  database: automovelnaweb
+  username: root
+  password: 34863486
+  host: localhost
+  encoding: utf8
