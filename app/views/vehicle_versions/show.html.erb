@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @vehicle_version.name %>
+</p>
+
+<p>
+  <b>Vehicle:</b>
+  <%=h @vehicle_version.vehicle %>
+</p>
+
+
+<%= link_to 'Edit', edit_vehicle_version_path(@vehicle_version) %> |
+<%= link_to 'Back', vehicle_versions_path %>

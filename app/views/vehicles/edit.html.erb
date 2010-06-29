@@ -1,0 +1,24 @@
+<h1>Editing vehicle</h1>
+
+<% form_for(@vehicle) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :model %><br />
+    <%= f.text_field :model %>
+  </p>
+  <p>
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </p>
+  <p>
+    <%= f.label :maker %><br />
+    <%= f.text_field :maker %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @vehicle %> |
+<%= link_to 'Back', vehicles_path %>

@@ -1,0 +1,18 @@
+<p>
+  <b>Model:</b>
+  <%=h @vehicle.model %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%=h @vehicle.type %>
+</p>
+
+<p>
+  <b>Maker:</b>
+  <%=h @vehicle.maker %>
+</p>
+
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>

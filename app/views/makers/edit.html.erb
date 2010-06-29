@@ -1,0 +1,16 @@
+<h1>Editing maker</h1>
+
+<% form_for(@maker) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @maker %> |
+<%= link_to 'Back', makers_path %>

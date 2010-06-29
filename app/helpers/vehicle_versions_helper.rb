@@ -1,0 +1,2 @@
+module VehicleVersionsHelper
+end
