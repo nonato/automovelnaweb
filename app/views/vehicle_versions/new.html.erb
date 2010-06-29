@@ -8,8 +8,8 @@
     <%= f.text_field :name %>
   </p>
   <p>
-    <%= f.label :vehicle %><br />
-    <%= f.text_field :vehicle %>
+    <%= f.label :vehicle_id %><br />
+    <%= f.collection_select :vehicle_id, Car.all, :id, :model %>
   </p>
   <p>
     <%= f.submit 'Create' %>

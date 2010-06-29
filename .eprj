@@ -64,6 +64,8 @@
             <string>..\grid_teste\app\views\layouts\users.html.erb</string>
             <key>vehi</key>
             <string>..\projeto_automoveis\app\controllers\vehicles_controller.rb</string>
+            <key>vehicles</key>
+            <string>app\controllers\vehicles_controller.rb</string>
         </dict>
     </dict>
 </plist>

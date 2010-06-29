@@ -3,13 +3,13 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Vehicle</th>
+    <th>Marca / Modelo</th>
   </tr>
 
 <% @vehicle_versions.each do |vehicle_version| %>
   <tr>
     <td><%=h vehicle_version.name %></td>
-    <td><%=h vehicle_version.vehicle %></td>
+    <td><%=h vehicle_version.vehicle.maker.name %> / <%=h vehicle_version.vehicle.model %></td>
     <td><%= link_to 'Show', vehicle_version %></td>
     <td><%= link_to 'Edit', edit_vehicle_version_path(vehicle_version) %></td>
     <td><%= link_to 'Destroy', vehicle_version, :confirm => 'Are you sure?', :method => :delete %></td>

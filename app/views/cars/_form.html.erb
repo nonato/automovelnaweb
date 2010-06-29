@@ -1,0 +1,15 @@
+<% form_for(@car) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :model %><br />
+    <%= f.text_field :model %>
+  </p>
+  <p>
+    <%= f.label :maker_id %><br />
+    <%= f.collection_select :maker_id, Maker.all, :id, :name %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
