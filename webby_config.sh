@@ -32,3 +32,5 @@ production:
   port: 5432
 " >> config/database.yml
 fi
+
+rake db:migrate RAILS_ENV=production
