@@ -5,7 +5,7 @@
         <key>fileTriggers</key>
         <dict>
             <key>add</key>
-            <string>..\projeto_automoveis\db\migrate\20100604141756_add_status_to_maker.rb</string>
+            <string>db\migrate\20100629171847_add_index_cached_slug_to_vehicles_class.rb</string>
             <key>adim</key>
             <string>..\projeto_automoveis\app\views\layouts\admin.html.erb</string>
             <key>admin</key>
@@ -29,7 +29,7 @@
             <key>index</key>
             <string>..\projeto_automoveis\app\views\admin_area\forum_topics\index.html.erb</string>
             <key>maker</key>
-            <string>..\projeto_automoveis\app\controllers\admin_area\makers_controller.rb</string>
+            <string>app\models\maker.rb</string>
             <key>new</key>
             <string>..\projeto_automoveis\app\views\admin_area\forum_categories\new.html.erb</string>
             <key>nvi</key>
@@ -51,7 +51,7 @@
             <key>sc</key>
             <string>db\schema.rb</string>
             <key>sch</key>
-            <string>..\projeto_automoveis\db\schema.rb</string>
+            <string>db\schema.rb</string>
             <key>sche</key>
             <string>..\blog_teste\db\schema.rb</string>
             <key>schema</key>
