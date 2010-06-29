@@ -15,7 +15,7 @@ test:
 production:
   adapter: mysql
   database: automovelnaweb
-  username: root
+  username: automovelnaweb
   password: 34863486
   host: localhost
   encoding: utf8
