@@ -1,0 +1,27 @@
+<% form_for(@vehicle_advertisement) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :customer_id %><br />
+    <%= f.collection_select :customer_id, Customer.all, :id, :name %>
+  </p>
+  <p>
+    <%= f.label :vehicle_version_id %><br />
+    <%= f.collection_select :vehicle_version_id, VehicleVersion.all, :id, :maker_model_version  %>
+  </p>
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.label :price %><br />
+    <%= f.text_field :price %>
+  </p>
+  <p>
+    <%= f.label :km %><br />
+    <%= f.text_field :km %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>

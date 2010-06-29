@@ -1,0 +1,28 @@
+<p>
+  <b>Customer:</b>
+  <%=h @vehicle_advertisement.customer.name %>
+</p>
+
+<p>
+  <b>Vehicle version:</b>
+  <%=h @vehicle_advertisement.vehicle_version.maker_model_version %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%=h @vehicle_advertisement.year %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%=h @vehicle_advertisement.price %>
+</p>
+
+<p>
+  <b>Km:</b>
+  <%=h @vehicle_advertisement.km %>
+</p>
+
+
+<%= link_to 'Edit', edit_vehicle_advertisement_path(@vehicle_advertisement) %> |
+<%= link_to 'Back', vehicle_advertisements_path %>

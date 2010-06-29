@@ -43,7 +43,7 @@
             <key>rout</key>
             <string>..\projeto_automoveis\config\routes.rb</string>
             <key>route</key>
-            <string>..\projeto_automoveis\config\routes.rb</string>
+            <string>config\routes.rb</string>
             <key>routes</key>
             <string>..\projeto_automoveis\config\routes.rb</string>
             <key>routr</key>
@@ -64,6 +64,8 @@
             <string>..\grid_teste\app\views\layouts\users.html.erb</string>
             <key>vehi</key>
             <string>..\projeto_automoveis\app\controllers\vehicles_controller.rb</string>
+            <key>vehicle_ad</key>
+            <string>test\functional\vehicle_ads_controller_test.rb</string>
             <key>vehicles</key>
             <string>app\controllers\vehicles_controller.rb</string>
         </dict>

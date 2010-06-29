@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :vehicle_advertisements
+
   map.resources :cars
 
   map.resources :customers
