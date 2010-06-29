@@ -32,6 +32,8 @@
             <string>..\projeto_automoveis\app\controllers\admin_area\makers_controller.rb</string>
             <key>new</key>
             <string>..\projeto_automoveis\app\views\admin_area\forum_categories\new.html.erb</string>
+            <key>nvi</key>
+            <string>config\environment.rb</string>
             <key>r</key>
             <string>..\blog_teste\config\routes.rb</string>
             <key>ro</key>

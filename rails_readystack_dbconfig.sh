@@ -8,10 +8,10 @@ echo WC_DB_ENGINE=${WC_DB_ENGINE}
 
 echo "
 login: &login
-  adapter: ${mysql}
-  database: ${automovelnaweb}
-  username: ${root}
-  password: ${34863486}
+  adapter: ${WC_DB_ENGINE}
+  database: ${WC_APP_NAME}
+  username: ${WC_APP_NAME}
+  password: ${WC_DB_PASSWORD}
   host: localhost
 " > config/database.yml
 
