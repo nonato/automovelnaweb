@@ -5,7 +5,7 @@
         <key>fileTriggers</key>
         <dict>
             <key>add</key>
-            <string>db\migrate\20100629171847_add_index_cached_slug_to_vehicles_class.rb</string>
+            <string>db\migrate\20100630003009_add_image_url_to_vehicles_advertisements.rb</string>
             <key>adim</key>
             <string>..\projeto_automoveis\app\views\layouts\admin.html.erb</string>
             <key>admin</key>
@@ -24,6 +24,8 @@
             <string>..\projeto_automoveis\app\models\customer.rb</string>
             <key>env</key>
             <string>config\environment.rb</string>
+            <key>form</key>
+            <string>app\views\vehicle_advertisements\_form.html.erb</string>
             <key>inde</key>
             <string>..\projeto_automoveis\app\views\admin_area\forum_categories\index.html.erb</string>
             <key>index</key>

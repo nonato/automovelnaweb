@@ -6,6 +6,7 @@
     <th>Vehicle version</th>
     <th>Year</th>
     <th>Price</th>
+    <th>Imagem</th>
     <th>Km</th>
   </tr>
 
@@ -15,6 +16,7 @@
     <td><%=h vehicle_advertisement.vehicle_version.maker_model_version %></td>
     <td><%=h vehicle_advertisement.year %></td>
     <td><%=h vehicle_advertisement.price %></td>
+    <td><%= image_tag( vehicle_advertisement.image_url, :width => "250px", :height => "150px" ) %></td>
     <td><%=h vehicle_advertisement.km %></td>
     <td><%= link_to 'Show', vehicle_advertisement %></td>
     <td><%= link_to 'Edit', edit_vehicle_advertisement_path(vehicle_advertisement) %></td>
