@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*
+Theme Name: Automóvel na Web
+Theme URI: http://www.automovelnaweb.com.br/
+Description: Classificados online para Compra e Venda de carros, acessórios e Serviços Automotivos.
+Author: Design/Implementação : Rebeca Pacheco | Sistema: Eudaldo Nonato
+*/
+#topnav a.signin {
+    background:transparent url("../images/global/signin-nav-bg-ie.png") no-repeat 0 0;
+    padding:4px 12px 6px;
+}
+
+#topnav a.signin:hover {
+	background: transparent url("../images/global/signin-nav-bg-hover-ie.png") no-repeat 0 0;
+	padding :4px 12px 6px;
+}

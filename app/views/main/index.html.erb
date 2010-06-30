@@ -1,0 +1,372 @@
+<div id="geral">
+	<div id="geral_conteudo">
+	<div id="topo">
+        <h1 id="logo"><a href="http://www.automovelnaweb.com.br/" alt="Automóvel na Web - Sua melhor opção de Novos e Seminovos">Automóvel na Web - Sua melhor opção de Novos e Seminovos - Compra e Venda de carros, acessórios e Serviços Automotivos</a></h1>
+    </div>
+    
+    <div id="login">
+  <div id="topnav" class="topnav">Tem Cadastro? <a href="login" class="signin"><span>Login</span></a> </div>
+  <fieldset id="signin_menu">
+    <form method="post" id="signin" action="#">
+      <label for="username">nome de usuário ou e-mail</label>
+      <input id="username" name="username" value="" title="username" tabindex="4" type="text">
+      </p>
+      <p>
+        <label for="password">senha</label>
+        <input id="password" name="password" value="" title="password" tabindex="5" type="password">
+      </p>
+      <p class="remember">
+        <input id="signin_submit" value="entrar" tabindex="6" type="submit">
+        <input id="remember" name="remember_me" value="1" tabindex="7" type="checkbox">
+        <label for="remember">lembre-me</label>
+      </p>
+      <p class="forgot"> <a href="#" id="resend_password_link">esqueceu sua senha?</a> </p>
+      <p class="forgot-username"> <a id=forgot_username_link 
+title="Se você esqueceu sua senha, tente efetuar login com seu e-mail" 
+href="#">esqueceu sua senha?</a> </p>
+    </form>
+  </fieldset>
+</div>
+
+    <div id="menu">
+    <ul class="topnav">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Vender Automóvel</a></li>
+        <li><a href="#">Comprar Automóvel</a></li>
+        <li><a href="#">Anunciar</a></li>
+        <li><a href="#">Oficinas</a></li>
+        <li><a href="#">Notícias</a></li>
+        <li><a href="#">Contato</a></li>
+     </ul>
+     </div>
+     <div id="banner_principal">
+        <!-- banner rotativo -->
+        <a class="prev browse left"></a>
+        <!-- root element for scrollable -->
+        <div class="scrollable" id=browsable>   
+           <!-- root element for the items -->
+           <div class="items">
+              <div><a href="#"><img src="images/banner.jpg" /></a></div>
+              <div><a href="#"><img src="images/banner3.jpg" /></a></div>
+              <div><img src="images/banner2.jpg" /></div>
+           </div>
+        <div class="navi"></div>
+        </div>
+        <a class="next browse right"></a>
+        </div>
+        <script>
+        $(document).ready(function() {
+        
+        // initialize scrollable together with the navigator plugin
+        $("#browsable").scrollable().navigator();	
+        });
+		
+        </script>
+
+
+      <form action="#" id="busca" name="busca">
+        <fieldset>
+        <span>
+        <label class="busca">Buscar</label>
+		<div class="tipoBusca" >
+          <input name="CarroTipo" type="radio" value="CarroNovo" id="CarroNovo" checked="CHECKED" /><label for="CarroNovo">automóvel novo</label>
+          <input name="CarroTipo" type="radio" value="CarroUsado" id="CarroUsado" /><label for="CarroUsado">automóvel usado</label>
+         </div>
+        <select size="1" class="pesq_marca" id="pesq_marca" name="pesq_marca" tabindex="4"><option value="" selected="selected">marca</option><optgroup label="&nbsp;&nbsp;"><option value="1">AUDI</option><option value="15">BMW</option><option value="338">CHEVROLET</option><option value="39">CITROEN</option><option value="4">FIAT</option><option value="272">FORD</option><option value="87">GMC</option><option value="21">HONDA</option><option value="22">HYUNDAI</option><option value="25">JEEP</option><option value="10">KIA MOTORS</option><option value="7">MERCEDES-BENZ</option><option value="12">MITSUBISHI</option><option value="14">NISSAN</option><option value="30">PEUGEOT</option><option value="8">RENAULT</option><option value="11">SUZUKI</option><option value="37">TOYOTA</option><option value="6">VOLKSWAGEN</option></optgroup><optgroup label="&nbsp;&nbsp;"><option value="54">AGRALE</option><option value="2">ALFA ROMEO</option><option value="16">ASIA MOTORS</option><option value="334">BRM</option><option value="80">BUGGY</option><option value="55">CADILLAC</option><option value="336">CBT</option><option value="120">CHAMONIX</option><option value="273">CHANA</option><option value="399">CHERY</option><option value="9">CHRYSLER</option><option value="20">DAEWOO</option><option value="13">DAIHATSU</option><option value="176">DKW</option><option value="17">DODGE</option><option value="410">EFFA</option><option value="50">ENGESA</option><option value="45">ENVEMO</option><option value="19">FERRARI</option><option value="60">GURGEL</option><option value="415">HAFEI</option><option value="377">HUMMER</option><option value="167">INFINITI</option><option value="90">IVECO-FIAT</option><option value="24">JAGUAR</option><option value="429">JINBEI</option><option value="26">JPX</option><option value="27">LADA</option><option value="28">LAND ROVER</option><option value="97">LEXUS</option><option value="352">LINCOLN</option><option value="300">LOBINI</option><option value="325">MAHINDRA</option><option value="53">MASERATI</option><option value="99">MATRA</option><option value="29">MAZDA</option><option value="192">MERCURY</option><option value="229">MINI</option><option value="67">MIURA</option><option value="64">MP</option><option value="32">PORSCHE</option><option value="116">PROTOTIPO</option><option value="40">PUMA</option><option value="34">SATURN</option><option value="35">SEAT</option><option value="396">SIMCA</option><option value="56">SMART</option><option value="102">SSANGYONG</option><option value="36">SUBARU</option><option value="47">TROLLER</option><option value="58">VOLARE</option><option value="38">VOLVO</option><option value="201">WAY</option><option value="49">WILLYS</option></optgroup></select>
+        <select size="1" class="pesq_marca" id="pesq_marca2" name="pesq_marca2" tabindex="4">
+          <option value="" selected="selected">modelo</option>
+            <option value="A10">A10</option>
+            <option value="A20">A20</option>
+            <option value="AGILE">AGILE</option>
+            <option value="ASTRA">ASTRA</option>
+            <option value="ASTRA SEDAN">ASTRA SEDAN</option>
+            <option value="ASTRA SW">ASTRA SW</option>
+            <option value="ASTROVAN">ASTROVAN</option>
+            <option value="BEL AIR">BEL AIR</option>
+            <option value="BLAZER">BLAZER</option>
+            <option value="BONANZA">BONANZA</option>
+            <option value="BRASIL">BRASIL</option>
+            <option value="BRASINCA">BRASINCA</option>
+            <option value="C10">C10</option>
+            <option value="C14">C14</option>
+            <option value="C20">C20</option>
+            <option value="CALIBRA">CALIBRA</option>
+            <option value="CAMARO">CAMARO</option>
+            <option value="CAPTIVA">CAPTIVA</option>
+            <option value="CARAVAN">CARAVAN</option>
+            <option value="CAVALIER">CAVALIER</option>
+            <option value="CELTA">CELTA</option>
+            <option value="CHEVETTE">CHEVETTE</option>
+            <option value="CHEVY">CHEVY</option>
+            <option value="CORSA">CORSA</option>
+            <option value="CORSA HATCH">CORSA HATCH</option>
+            <option value="CORSA PICK-UP">CORSA PICK-UP</option>
+            <option value="CORSA PICK-UP">CORSA PICK-UP</option>
+            <option value="CORSA SEDAN">CORSA SEDAN</option>
+            <option value="CORSA WAGON">CORSA WAGON</option>
+            <option value="CORVETTE">CORVETTE</option>
+            <option value="D10">D10</option>
+            <option value="D20">D20</option>
+            <option value="EQUINOX">EQUINOX</option>
+            <option value="GEO">GEO</option>
+            <option value="GRAND BLAZER">GRAND BLAZER</option>
+            <option value="HUMMER">HUMMER</option>
+            <option value="IMPALA">IMPALA</option>
+            <option value="IPANEMA">IPANEMA</option>
+            <option value="KADETT">KADETT</option>
+            <option value="LUMINA">LUMINA</option>
+            <option value="MERIVA">MERIVA</option>
+            <option value="MONTANA">MONTANA</option>
+            <option value="MONZA">MONZA</option>
+            <option value="OMEGA">OMEGA</option>
+            <option value="OPALA">OPALA</option>
+            <option value="PRISMA">PRISMA</option>
+            <option value="S10">S10</option>
+            <option value="SILVERADO">SILVERADO</option>
+            <option value="SPACE VAN">SPACE VAN</option>
+            <option value="SS10">SS10</option>
+            <option value="SUBURBAN">SUBURBAN</option>
+            <option value="TIGRA">TIGRA</option>
+            <option value="TRACKER">TRACKER</option>
+            <option value="VECTRA">VECTRA</option>
+            <option value="VERANEIO">VERANEIO</option>
+            <option value="ZAFIRA">ZAFIRA</option>
+        </select>
+        <select size="1" class="pesq_marca" id="pesq_marca3" name="pesq_marca3" tabindex="4">
+          <option value="">ano</option>
+          </optgroup>
+        </select>
+        <select size="1" class="pesq_marca" id="pesq_marca4" name="pesq_marca4" tabindex="4">
+          <option value="" selected="selected">preço</option>
+value="0000">0.000</option><option value="2000">2.000</option><option value="4000">4.000</option><option value="6000">6.000</option><option value="8000">8.000</option><option value="10000">10.000</option><option value="12000">12.000</option><option value="14000">14.000</option><option value="16000">16.000</option><option value="18000">18.000</option><option value="20000">20.000</option><option value="22000">22.000</option><option value="24000">24.000</option><option value="26000">26.000</option><option value="28000">28.000</option><option value="30000">30.000</option><option value="35000">35.000</option><option value="40000">40.000</option><option value="45000">45.000</option><option value="50000">50.000</option><option value="60000">60.000</option><option value="70000">70.000</option><option value="80000">80.000</option><option value="90000">90.000</option><option value="100000">100.000</option>
+		</select>
+        </span>
+        </fieldset>
+      </form>
+      
+      <span></span>
+      <div id="busca_detalhada">
+      <div class="tgl">
+        <h2>busca detalhada</h2>
+        	<p>Com a pesquisa detalhada, fica muito mais fácil você encontrar seu automóvel.</p>
+        	<p>Realize a pesquisa avançada preenchendo o formulário abaixo:</p>
+        <form>
+        <fieldset>
+        <legend>Cidade</legend>
+		<label for="pesq_cidade">Estado: </label><select id="pesq_cidade" name="pesq_cidade" tabindex="2">
+        <option value="">todos</option><option value="AC">AC</option><option value="AL">AL</option><option value="AP">AP</option><option value="AM">AM</option><option value="BA">BA</option><option value="CE">CE</option><option value="DF">DF</option><option value="ES">ES</option><option value="GO">GO</option><option value="MA">MA</option><option value="MG">MG</option><option value="MS">MS</option><option value="MT">MT</option><option value="PA">PA</option><option value="PB">PB</option><option value="PE">PE</option><option value="PI">PI</option><option value="PR">PR</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RO">RO</option><option value="RR">RR</option><option value="RS">RS</option><option value="SC">SC</option><option value="SE">SE</option><option value="SP">SP</option><option value="TO">TO</option></select>
+		<label for="pesq_cidade">Cidade: </label><select id="pesq_cidade" name="pesq_cidade" tabindex="2"><option value="">Selecione</option>
+        <optgroup label="Capital"><option value="249">SALVADOR</option></optgroup><optgroup label="Outras Cidades"><option value="827">ABADIA</option><option value="251">ABARé</option><option value="250">ABAíRA</option><option value="714">ABRANTES</option><option value="836">ABóBORA</option><option value="252">ACAJUTIBA</option><option value="936">ACUPE</option><option value="253">ADUSTINA</option><option value="943">AFLIGIDOS</option><option value="847">AFRâNIO PEIXOTO</option><option value="256">AIQUARA</option><option value="257">ALAGOINHAS</option><option value="258">ALCOBAçA</option><option value="1005">ALEGRE</option><option value="780">ALGODãO</option><option value="918">ALGODõES</option><option value="259">ALMADINA</option><option value="886">ALTO BONITO</option><option value="865">AMADO BAHIA</option><option value="955">AMANIú</option><option value="260">AMARGOSA</option><option value="261">AMéLIA RODRIGUES</option><option value="262">AMéRICA DOURADA</option><option value="956">AMéRICO ALVES</option><option value="263">ANAGé</option><option value="264">ANDARAí</option><option value="265">ANDORINHA</option><option value="266">ANGICAL</option><option value="1012">ANGICO</option><option value="267">ANGUERA</option><option value="268">ANTAS</option><option value="269">ANTôNIO CARDOSO</option><option value="270">ANTôNIO GONçALVES</option><option value="271">APORá</option><option value="272">APUAREMA</option><option value="273">ARACATU</option><option value="275">ARACI</option><option value="276">ARAMARI</option><option value="925">ARAPIRANGA</option><option value="277">ARATACA</option><option value="278">ARATUíPE</option><option value="274">ARAçáS</option><option value="919">ARGOIM</option><option value="892">ARGOLO</option><option value="754">ARIBICE</option><option value="787">ARITAGUá</option><option value="279">AURELINO LEAL</option><option value="864">AçU DA TORRE</option><option value="931">AçUDINA</option><option value="280">BAIANóPOLIS</option><option value="948">BAIXA DO PALMEIRA</option><option value="281">BAIXA GRANDE</option><option value="975">BAIXINHA</option><option value="830">BAIXãO</option><option value="903">BALUARTE</option><option value="788">BANCO CENTRAL</option><option value="804">BANDEIRA DO ALMADA</option><option value="810">BANDEIRA DO COLNIA</option><option value="282">BANZAê</option><option value="949">BARAúNAS</option><option value="716">BARCELOS DO SUL</option><option value="283">BARRA</option><option value="284">BARRA DA ESTIVA</option><option value="285">BARRA DO CHOçA</option><option value="286">BARRA DO MENDES</option><option value="287">BARRA DO ROCHA</option><option value="288">BARREIRAS</option><option value="289">BARRO ALTO</option><option value="290">BARRO PRETO</option><option value="746">BARRO VERMELHO</option><option value="961">BARROCAS</option><option value="697">BASTIãO</option><option value="987">BATE-Pé</option><option value="807">BATINGA</option><option value="723">BEDENGó</option><option value="734">BELA FLOR</option><option value="291">BELMONTE</option><option value="292">BELO CAMPO</option><option value="674">BELO CAMPO</option><option value="705">BELéM DA CACHOEIRA</option><option value="727">BEM-BOM</option><option value="800">BENTO SIMõES</option><option value="293">BIRITINGA</option><option value="934">BOA ESPERA</option><option value="294">BOA NOVA</option><option value="667">BOA UNIãO</option><option value="785">BOA VISTA DO LAGAMAR</option><option value="295">BOA VISTA DO TUPIM</option><option value="831">BOAçU</option><option value="694">BOCA DO CóRREGO</option><option value="296">BOM JESUS DA LAPA</option><option value="297">BOM JESUS DA SERRA</option><option value="896">BOM SOSSEGO</option><option value="757">BONFIM DA FEIRA</option><option value="298">BONINAL</option><option value="299">BONITO</option><option value="300">BOQUIRA</option><option value="301">BOTUPORã</option><option value="923">BOTUQUARA</option><option value="707">BREJINHO DAS AMETISTAS</option><option value="904">BREJO DA SERRA</option><option value="894">BREJO LUIZA DE BRITO</option><option value="696">BREJO NOVO</option><option value="303">BREJOLâNDIA</option><option value="302">BREJõES</option><option value="304">BROTAS DE MACAúBAS</option><option value="305">BRUMADO</option><option value="698">BUCUITUBA</option><option value="306">BUERAREMA</option><option value="968">BURACICA</option><option value="773">BURANHéM</option><option value="1004">BURIL</option><option value="307">BURITIRAMA</option><option value="308">CAATIBA</option><option value="309">CABACEIRAS DO PARAGUAçU</option><option value="988">CABECEIRA DA JIBOIA</option><option value="901">CABRáLIA</option><option value="984">CACHA PREGOS</option><option value="310">CACHOEIRA</option><option value="967">CACHOEIRA DO MATO</option><option value="311">CACULé</option><option value="313">CAETANOS</option><option value="314">CAETITé</option><option value="898">CAETé-AçU</option><option value="315">CAFARNAUM</option><option value="755">CAIMBE</option><option value="316">CAIRU</option><option value="809">CAIUBI</option><option value="1010">CAJUEIRO</option><option value="958">CAJUí</option><option value="708">CALDEIRAS</option><option value="973">CALDEIRãO</option><option value="317">CALDEIRãO GRANDE</option><option value="318">CAMACAN</option><option value="320">CAMAMU</option><option value="823">CAMASSANDI</option><option value="319">CAMAçARI</option><option value="874">CAMIRIM</option><option value="937">CAMPINHOS</option><option value="321">CAMPO ALEGRE DE LOURDES</option><option value="322">CAMPO FORMOSO</option><option value="917">CAMPO FORMOSO</option><option value="965">CAMURUGI</option><option value="1013">CANABRAVA</option><option value="899">CANABRAVINHA</option><option value="324">CANARANA</option><option value="852">CANATIBA</option><option value="325">CANAVIEIRAS</option><option value="835">CANCHé</option><option value="326">CANDEAL</option><option value="327">CANDEIAS</option><option value="328">CANDIBA</option><option value="783">CANOãO</option><option value="330">CANSANçãO</option><option value="884">CANUDOS</option><option value="331">CANUDOS</option><option value="323">CANáPOLIS</option><option value="332">CAPELA DO ALTO ALEGRE</option><option value="999">CAPIM GROSSO</option><option value="845">CAPãO</option><option value="844">CARAGUATAí</option><option value="740">CARAIBUNA</option><option value="940">CARAIPé</option><option value="913">CARAIVA</option><option value="335">CARAVELAS</option><option value="334">CARAíBAS</option><option value="336">CARDEAL DA SILVA</option><option value="337">CARINHANHA</option><option value="921">CARIPARé</option><option value="837">CARNAíBA DO SERTãO</option><option value="952">CARRAPICHEL</option><option value="338">CASA NOVA</option><option value="1011">CASCAVEL</option><option value="789">CASTELO NOVO</option><option value="339">CASTRO ALVES</option><option value="817">CATINGA DO MOURA</option><option value="855">CATINGAL</option><option value="805">CATOLEZINHO</option><option value="340">CATOLâNDIA</option><option value="664">CATOLéS</option><option value="341">CATU</option><option value="342">CATURAMA</option><option value="796">CAVUNGE</option><option value="312">CAéM</option><option value="343">CENTRAL</option><option value="771">CERAíMA</option><option value="989">CERCADINHO</option><option value="344">CHORROCHó</option><option value="945">CINCO RIOS</option><option value="346">CIPó</option><option value="347">COARACI</option><option value="348">COCOS</option><option value="737">COMéRCIO</option><option value="349">CONCEIçãO DA FEIRA</option><option value="350">CONCEIçãO DO ALMEIDA</option><option value="351">CONCEIçãO DO COITé</option><option value="352">CONCEIçãO DO JACUíPE</option><option value="353">CONDE</option><option value="354">CONDEúBA</option><option value="355">CONTENDAS DO SINCORá</option><option value="997">COPIXABA</option><option value="856">COQUEIROS</option><option value="677">COQUINHOS</option><option value="356">CORAçãO DE MARIA</option><option value="357">CORDEIROS</option><option value="358">CORIBE</option><option value="359">CORONEL JOãO Sá</option><option value="360">CORRENTINA</option><option value="669">CORTA MãO</option><option value="361">COTEGIPE</option><option value="790">COUTOS</option><option value="362">CRAVOLâNDIA</option><option value="701">CRISTALâNDIA</option><option value="364">CRISTóPOLIS</option><option value="363">CRISóPOLIS</option><option value="731">CRUSSAI</option><option value="365">CRUZ DAS ALMAS</option><option value="916">CUMURUXATIBA</option><option value="824">CUNHANGI</option><option value="366">CURAçá</option><option value="329">CâNDIDO SALES</option><option value="345">CíCERO DANTAS</option><option value="990">DANTILâNDIA</option><option value="978">DELFINO</option><option value="742">DESCOBERTO</option><option value="875">DIAS COELHO</option><option value="670">DIóGENES SAMPAIO</option><option value="369">DOM BASíLIO</option><option value="370">DOM MACEDO COSTA</option><option value="876">DUAS BARRAS DO MORRO</option><option value="367">DáRIO MEIRA</option><option value="371">ELíSIO MEDRADO</option><option value="372">ENCRUZILHADA</option><option value="976">ENGENHEIRO FRANCA</option><option value="846">ENGENHEIRO PONTES</option><option value="373">ENTRE RIOS</option><option value="374">ESPLANADA</option><option value="375">EUCLIDES DA CUNHA</option><option value="376">EUNáPOLIS</option><option value="378">FEIRA DA MATA</option><option value="379">FEIRA DE SANTANA</option><option value="784">FEIRA NOVA</option><option value="801">FERRADAS</option><option value="380">FILADéLFIA</option><option value="683">FILANESIA</option><option value="381">FIRMINO ALVES</option><option value="382">FLORESTA AZUL</option><option value="383">FORMOSA DO RIO PRETO</option><option value="907">FRANçA</option><option value="377">FáTIMA</option><option value="711">GALEãO</option><option value="712">GAMBOA</option><option value="962">GAMELEIRA DA LAPA</option><option value="765">GAMELEIRA DO ASSURUá</option><option value="384">GANDU</option><option value="385">GAVIãO</option><option value="386">GENTIO DO OURO</option><option value="704">GEOLâNDIA</option><option value="387">GLóRIA</option><option value="388">GONGOGI</option><option value="759">GOVERNADOR DOUTOR JOãO DURVAL CARNEIRO</option><option value="389">GOVERNADOR MANGABEIRA</option><option value="1006">GUAIBIM</option><option value="390">GUAJERU</option><option value="391">GUANAMBI</option><option value="858">GUAPIRA</option><option value="392">GUARATINGA</option><option value="857">GUAí</option><option value="980">GUERéM</option><option value="880">GUINé</option><option value="906">GUIRAPá</option><option value="915">GURUPá MIRIM</option><option value="393">HELIóPOLIS</option><option value="893">HELVéCIA</option><option value="977">HIDROLâNDIA</option><option value="758">HUMILDES</option><option value="394">IAçU</option><option value="751">IBATUí</option><option value="928">IBIAJARA</option><option value="887">IBIAPORã</option><option value="395">IBIASSUCê</option><option value="861">IBIAçU</option><option value="396">IBICARAí</option><option value="397">IBICOARA</option><option value="398">IBICUí</option><option value="399">IBIPEBA</option><option value="797">IBIPETUM</option><option value="400">IBIPITANGA</option><option value="401">IBIQUERA</option><option value="689">IBIRABA</option><option value="808">IBIRAJá</option><option value="882">IBIRANHéM</option><option value="402">IBIRAPITANGA</option><option value="403">IBIRAPUã</option><option value="404">IBIRATAIA</option><option value="405">IBITIARA</option><option value="909">IBITIGUIRA</option><option value="927">IBITIRA</option><option value="406">IBITITá</option><option value="766">IBITUNANE</option><option value="777">IBITUPã</option><option value="407">IBOTIRAMA</option><option value="665">IBó</option><option value="408">ICHU</option><option value="877">ICó</option><option value="409">IGAPORã</option><option value="953">IGARA</option><option value="690">IGARITé</option><option value="678">IGATU</option><option value="410">IGRAPIúNA</option><option value="786">IGUAIBI</option><option value="849">IGUATEMI</option><option value="411">IGUAí</option><option value="998">IGUIRA</option><option value="778">IGUITU</option><option value="991">IGUá</option><option value="412">ILHéUS</option><option value="888">INDAí</option><option value="791">INEMA</option><option value="413">INHAMBUPE</option><option value="672">INHATá</option><option value="932">INHAúMAS</option><option value="992">INHOBIM</option><option value="902">INúBIA</option><option value="414">IPECAETá</option><option value="415">IPIAú</option><option value="416">IPIRá</option><option value="821">IPIúNA</option><option value="417">IPUPIARA</option><option value="897">IPUçABA</option><option value="418">IRAJUBA</option><option value="419">IRAMAIA</option><option value="799">IRAPORANGA</option><option value="420">IRAQUARA</option><option value="421">IRARá</option><option value="422">IRECê</option><option value="815">IRUNDIARA</option><option value="423">ITABELA</option><option value="424">ITABERABA</option><option value="425">ITABUNA</option><option value="426">ITACARé</option><option value="741">ITACAVA</option><option value="671">ITACHAMA</option><option value="427">ITAETé</option><option value="428">ITAGI</option><option value="429">ITAGIBá</option><option value="430">ITAGIMIRIM</option><option value="431">ITAGUAçU DA BAHIA</option><option value="832">ITAIBó</option><option value="818">ITAITU</option><option value="764">ITAIá</option><option value="7995">ITAJAí</option><option value="432">ITAJU DO COLôNIA</option><option value="767">ITAJUBAQUARA</option><option value="833">ITAJURU</option><option value="433">ITAJUíPE</option><option value="434">ITAMARAJU</option><option value="435">ITAMARI</option><option value="436">ITAMBé</option><option value="682">ITAMIRA</option><option value="838">ITAMOTINGA</option><option value="437">ITANAGRA</option><option value="850">ITANAGé</option><option value="828">ITANHI</option><option value="438">ITANHéM</option><option value="439">ITAPARICA</option><option value="441">ITAPEBI</option><option value="819">ITAPEIPU</option><option value="442">ITAPETINGA</option><option value="443">ITAPICURU</option><option value="444">ITAPITANGA</option><option value="890">ITAPORã</option><option value="868">ITAPURA</option><option value="440">ITAPé</option><option value="445">ITAQUARA</option><option value="702">ITAQUARAí</option><option value="446">ITARANTIM</option><option value="813">ITATI</option><option value="447">ITATIM</option><option value="684">ITATINGUI</option><option value="448">ITIRUçU</option><option value="449">ITIúBA</option><option value="450">ITORORó</option><option value="451">ITUAçU</option><option value="452">ITUBERá</option><option value="866">ITUPEVA</option><option value="453">IUIú</option><option value="454">JABORANDI</option><option value="455">JACARACI</option><option value="456">JACOBINA</option><option value="970">JACU</option><option value="825">JACURUNA</option><option value="946">JACUíPE</option><option value="457">JAGUAQUARA</option><option value="760">JAGUARA</option><option value="458">JAGUARARI</option><option value="459">JAGUARIPE</option><option value="460">JANDAíRA</option><option value="803">JAPOMIRIM</option><option value="792">JAPU</option><option value="761">JAíBA</option><option value="461">JEQUIé</option><option value="462">JEREMOABO</option><option value="463">JIQUIRIçA</option><option value="985">JIRIBATUBA</option><option value="464">JITAúNA</option><option value="993">JOSé GONçALVES</option><option value="774">JOãO AMARO</option><option value="881">JOãO CORREIA</option><option value="465">JOãO DOURADO</option><option value="822">JUACEMA</option><option value="466">JUAZEIRO</option><option value="467">JUCURUçU</option><option value="724">JUERANA</option><option value="820">JUNCO</option><option value="744">JUPAGUá</option><option value="863">JURACI</option><option value="840">JUREMAL</option><option value="468">JUSSARA</option><option value="469">JUSSARI</option><option value="470">JUSSIAPE</option><option value="471">LAFAIETE COUTINHO</option><option value="853">LAGOA CLARA</option><option value="693">LAGOA DO BOI</option><option value="999">LAGOA GRANDE</option><option value="779">LAGOA GRANDE</option><option value="972">LAGOA PRETA</option><option value="472">LAGOA REAL</option><option value="473">LAJE</option><option value="686">LAJE DO BANCO</option><option value="475">LAJEDINHO</option><option value="775">LAJEDO ALTO</option><option value="476">LAJEDO DO TABOCAL</option><option value="474">LAJEDãO</option><option value="477">LAMARãO</option><option value="947">LAMARãO DO PASSé</option><option value="478">LAPãO</option><option value="908">LARGO</option><option value="479">LAURO DE FREITAS</option><option value="480">LENçóIS</option><option value="481">LICíNIO DE ALMEIDA</option><option value="482">LIVRAMENTO DO BRUMADO</option><option value="911">LUCAIA</option><option value="969">LUSTOSA</option><option value="728">LUíS VIANA</option><option value="483">MACAJUBA</option><option value="484">MACARANI</option><option value="485">MACAúBAS</option><option value="486">MACURURé</option><option value="487">MADRE DE DEUS</option><option value="488">MAETINGA</option><option value="489">MAIQUINIQUE</option><option value="490">MAIRI</option><option value="491">MALHADA</option><option value="492">MALHADA DE PEDRAS</option><option value="935">MALHADA GRANDE</option><option value="951">MANDIROBA</option><option value="829">MANGUE SECO</option><option value="709">MANIAçU</option><option value="493">MANOEL VITORINO</option><option value="494">MANSIDãO</option><option value="986">MAR GRANDE</option><option value="495">MARACáS</option><option value="496">MARAGOGIPE</option><option value="685">MARAGOGIPINHO</option><option value="497">MARAú</option><option value="498">MARCIONíLIO SOUZA</option><option value="926">MARCOLINO MOURA</option><option value="762">MARIA QUITéRIA</option><option value="981">MARICOABO</option><option value="963">MARIQUITA</option><option value="499">MASCOTE</option><option value="756">MASSACARá</option><option value="841">MASSAROCA</option><option value="673">MATA DA ALIANçA</option><option value="500">MATA DE SãO JOãO</option><option value="941">MATARIPE</option><option value="501">MATINA</option><option value="502">MEDEIROS NETO</option><option value="503">MIGUEL CALMON</option><option value="504">MILAGRES</option><option value="692">MINAS DO ESPíRITO SANTO</option><option value="959">MINAS DO MIMOSO</option><option value="912">MIRANGA</option><option value="505">MIRANGABA</option><option value="506">MIRANTE</option><option value="781">MOCAMBO</option><option value="695">MOGIQUIçABA</option><option value="1007">MONTE BRANCO</option><option value="750">MONTE CRUZEIRO</option><option value="715">MONTE GORDO</option><option value="942">MONTE RECôNCAVO</option><option value="507">MONTE SANTO</option><option value="508">MORPARá</option><option value="929">MORRO DAS FLORES</option><option value="509">MORRO DO CHAPéU</option><option value="510">MORTUGABA</option><option value="511">MUCUGê</option><option value="512">MUCURI</option><option value="513">MULUNGU DO MORRO</option><option value="514">MUNDO NOVO</option><option value="515">MUNIZ FERREIRA</option><option value="516">MUQUéM DE SãO FRANCISCO</option><option value="517">MURITIBA</option><option value="518">MUTUíPE</option><option value="772">MUTãS</option><option value="859">NAGé</option><option value="519">NAZARé</option><option value="520">NILO PEçANHA</option><option value="521">NORDESTINA</option><option value="924">NOVA BRASILIA</option><option value="522">NOVA CANAã</option><option value="523">NOVA FáTIMA</option><option value="524">NOVA IBIá</option><option value="525">NOVA ITARANA</option><option value="910">NOVA ITAíPE</option><option value="867">NOVA LíDICE</option><option value="526">NOVA REDENçãO</option><option value="527">NOVA SOURE</option><option value="528">NOVA VIçOSA</option><option value="798">NOVO ACRE</option><option value="529">NOVO HORIZONTE</option><option value="530">NOVO TRIUNFO</option><option value="871">NUGUAçU</option><option value="782">OLHOS DÁGUA DO SECO</option><option value="531">OLINDINA</option><option value="532">OLIVEIRA DOS BREJINHOS</option><option value="793">OLIVENçA</option><option value="889">ONHA</option><option value="834">ORIENTE NOVO</option><option value="720">OURICANA</option><option value="699">OURICURI DO OURO</option><option value="533">OURIçANGAS</option><option value="534">OUROLâNDIA</option><option value="939">OUTEIRO REDONDO</option><option value="816">PAIOL</option><option value="710">PAJEú DO VENTO</option><option value="753">PALAME</option><option value="535">PALMAS DE MONTE ALTO</option><option value="536">PALMEIRAS</option><option value="1009">PARAGUASSU</option><option value="537">PARAMIRIM</option><option value="854">PARATECA</option><option value="538">PARATINGA</option><option value="539">PARIPIRANGA</option><option value="747">PATAMUTé</option><option value="999">PATAíBA</option><option value="729">PAU A PIQUE</option><option value="540">PAU BRASIL</option><option value="541">PAULO AFONSO</option><option value="719">PAZ DE SALOBRO</option><option value="544">PEDRO ALEXANDRE</option><option value="543">PEDRãO</option><option value="718">PEIXE</option><option value="732">PETIM</option><option value="862">PIABANHA</option><option value="545">PIATã</option><option value="546">PILãO ARCADO</option><option value="722">PILõES</option><option value="1001">PIMENTA</option><option value="794">PIMENTEIRA</option><option value="547">PINDAí</option><option value="548">PINDOBAçU</option><option value="842">PINHõES</option><option value="549">PINTADAS</option><option value="826">PIRAJUIA</option><option value="550">PIRAí DO NORTE</option><option value="960">PIRI</option><option value="551">PIRIPá</option><option value="552">PIRITIBA</option><option value="768">PITUBA</option><option value="957">PIçARRãO</option><option value="553">PLANALTINO</option><option value="554">PLANALTO</option><option value="556">POJUCA</option><option value="725">PONTA DA AREIA</option><option value="557">PONTO NOVO</option><option value="933">PORTO NOVO</option><option value="558">PORTO SEGURO</option><option value="559">POTIRAGUá</option><option value="721">POXIM DO SUL</option><option value="687">POçO CENTRAL</option><option value="748">POçO DE FORA</option><option value="920">POçOS</option><option value="555">POçõES</option><option value="560">PRADO</option><option value="994">PRADOSO</option><option value="561">PRESIDENTE DUTRA</option><option value="562">PRESIDENTE JâNIO QUADROS</option><option value="563">PRESIDENTE TANCREDO NEVES</option><option value="675">PREVENIDO</option><option value="542">Pé DE SERRA</option><option value="1000">QUARAçU</option><option value="564">QUEIMADAS</option><option value="565">QUIJINGUE</option><option value="873">QUIXABA</option><option value="566">QUIXABEIRA</option><option value="567">RAFAEL JAMBEIRO</option><option value="843">RECIFE</option><option value="568">REMANSO</option><option value="895">REMéDIOS</option><option value="1008">RETIRO</option><option value="569">RETIROLâNDIA</option><option value="668">RIACHO DA GUIA</option><option value="572">RIACHO DE SANTANA</option><option value="749">RIACHO SECO</option><option value="570">RIACHãO DAS NEVES</option><option value="571">RIACHãO DO JACUíPE</option><option value="979">RIACHãO DO UTINGA</option><option value="573">RIBEIRA DO AMPARO</option><option value="574">RIBEIRA DO POMBAL</option><option value="575">RIBEIRãO DO LARGO</option><option value="812">RIBEIRãO DO SALTO</option><option value="738">RIO DA DONA</option><option value="576">RIO DE CONTAS</option><option value="577">RIO DO ANTôNIO</option><option value="795">RIO DO BRAçO</option><option value="814">RIO DO MEIO</option><option value="578">RIO DO PIRES</option><option value="971">RIO FUNDO</option><option value="579">RIO REAL</option><option value="580">RODELAS</option><option value="581">RUY BARBOSA</option><option value="905">SALDANHA</option><option value="739">SALGADáLIA</option><option value="582">SALINAS DA MARGARIDA</option><option value="811">SAMBAíBA</option><option value="584">SANTA BRíGIDA</option><option value="583">SANTA BáRBARA</option><option value="585">SANTA CRUZ CABRáLIA</option><option value="586">SANTA CRUZ DA VITóRIA</option><option value="587">SANTA INêS</option><option value="589">SANTA LUZIA</option><option value="590">SANTA MARIA DA VITóRIA</option><option value="593">SANTA RITA DE CáSSIA</option><option value="594">SANTA TERESINHA</option><option value="588">SANTALUZ</option><option value="591">SANTANA</option><option value="592">SANTANóPOLIS</option><option value="706">SANTIAGO DO IGUAPE</option><option value="595">SANTO AMARO</option><option value="726">SANTO ANTôNIO DE BARCELONA</option><option value="596">SANTO ANTôNIO DE JESUS</option><option value="597">SANTO ESTêVãO</option><option value="769">SANTO INáCIO</option><option value="610">SAPEAçU</option><option value="612">SAUBARA</option><option value="700">SAUDáVEL</option><option value="613">SAúDE</option><option value="614">SEABRA</option><option value="615">SEBASTIãO LARANJEIRAS</option><option value="616">SENHOR DO BONFIM</option><option value="618">SENTO Sé</option><option value="944">SERGI</option><option value="974">SERRA DA CANABRAVA</option><option value="617">SERRA DO RAMALHO</option><option value="619">SERRA DOURADA</option><option value="982">SERRA GRANDE</option><option value="620">SERRA PRETA</option><option value="621">SERRINHA</option><option value="622">SERROLâNDIA</option><option value="623">SIMõES FILHO</option><option value="676">SOARES</option><option value="626">SOBRADINHO</option><option value="730">SOBRADO</option><option value="627">SOUTO SOARES</option><option value="752">SUBAúMA</option><option value="964">SUSSUARANA</option><option value="611">SáTIRO DIAS</option><option value="598">SãO DESIDéRIO</option><option value="599">SãO DOMINGOS</option><option value="602">SãO FELIPE</option><option value="603">SãO FRANCISCO DO CONDE</option><option value="600">SãO FéLIX</option><option value="601">SãO FéLIX DO CORIBE</option><option value="604">SãO GABRIEL</option><option value="605">SãO GONçALO DOS CAMPOS</option><option value="606">SãO JOSé DA VITóRIA</option><option value="806">SãO JOSé DO COLôNIA</option><option value="607">SãO JOSé DO JACUíPE</option><option value="922">SãO JOSé DO RIO GRANDE</option><option value="736">SãO JOãO DA FORTALEZA</option><option value="1002">SãO JOãO DO PARAíSO</option><option value="743">SãO MANOEL DO NORTE</option><option value="608">SãO MIGUEL DAS MATAS</option><option value="860">SãO ROQUE DO PARAGUAçU</option><option value="995">SãO SEBASTIãO</option><option value="609">SãO SEBASTIãO DO PASSé</option><option value="851">SãO TIMóTEO</option><option value="680">SíTIO DA BARAúNA</option><option value="624">SíTIO DO MATO</option><option value="733">SíTIO DO MEIO</option><option value="625">SíTIO DO QUINTO</option><option value="938">SíTIO GRANDE</option><option value="735">SíTIO NOVO</option><option value="628">TABOCAS DO BREJO VELHO</option><option value="983">TABOLEIRO DO CASTRO</option><option value="802">TABOQUINHAS</option><option value="745">TAGUá</option><option value="878">TAMBORIL</option><option value="629">TANHAçU</option><option value="630">TANQUE NOVO</option><option value="631">TANQUINHO</option><option value="681">TANQUINHO DO POçO</option><option value="632">TAPEROá</option><option value="770">TAPIRAMA</option><option value="633">TAPIRAMUTá</option><option value="869">TAPIRANGA</option><option value="930">TAPIRAíPE</option><option value="717">TAPUIA</option><option value="872">TAQUARANDI</option><option value="883">TAQUARINHA</option><option value="870">TARTARUGA</option><option value="848">TAUAPE</option><option value="634">TEIXEIRA DE FREITAS</option><option value="1003">TEIXEIRA DO PROGRESSO</option><option value="635">TEODORO SAMPAIO</option><option value="636">TEOFILâNDIA</option><option value="637">TEOLâNDIA</option><option value="638">TERRA NOVA</option><option value="954">TIJUAçU</option><option value="763">TIQUARUçU</option><option value="639">TREMEDAL</option><option value="691">TRIUNFO DO SINCORA</option><option value="640">TUCANO</option><option value="641">UAUá</option><option value="643">UBAITABA</option><option value="644">UBATã</option><option value="642">UBAíRA</option><option value="679">UBIRAITá</option><option value="703">UBIRAçABA</option><option value="645">UIBAí</option><option value="646">UMBURANAS</option><option value="647">UNA</option><option value="648">URANDI</option><option value="649">URUçUCA</option><option value="650">UTINGA</option><option value="914">VALE VERDE</option><option value="652">VALENTE</option><option value="651">VALENçA</option><option value="656">VARZEDO</option><option value="713">VELHA BOIPEBA</option><option value="879">VENTURA</option><option value="657">VERA CRUZ</option><option value="658">VEREDA</option><option value="996">VEREDINHA</option><option value="659">VITóRIA DA CONQUISTA</option><option value="966">VOLTA GRANDE</option><option value="653">VáRZEA DA ROçA</option><option value="950">VáRZEA DO CALDAS</option><option value="885">VáRZEA DO CERCO</option><option value="654">VáRZEA DO POçO</option><option value="655">VáRZEA NOVA</option><option value="688">VáRZEAS</option><option value="660">WAGNER</option><option value="661">WANDERLEY</option><option value="662">WENCESLAU GUIMARãES</option><option value="663">XIQUE-XIQUE</option><option value="776">ÁGUA DOCE</option><option value="254">ÁGUA FRIA</option><option value="900">ÁGUAS DO PAULISTA</option><option value="255">ÉRICO CARDOSO</option></optgroup></select>  
+        <br />
+        <label for="pesq_combustivel">Combustível: </label>
+        <select size="1" class="" id="pesq_combustivel" name="pesq_combustivel" tabindex="5"><option value="">Todos</option><option value="3">ALCOOL</option><option value="2">DIESEL</option><option value="5">FLEX</option><option value="1">GASOLINA</option><option value="6">GNV</option><option value="12">GNV Alcool</option><option value="13">GNV Flex</option><option value="11">GNV Gasolina</option><option value="15">Não se aplica</option></select>  
+
+        <label for="pesq_cor">Cor: </label>
+		<select size="1" class="" id="pesq_cor" name="pesq_cor" tabindex="6"><option value="0">Todas</option><option value="1">AMARELO</option><option value="2">AZUL</option><option value="12">BEGE</option><option value="13">BORDO</option><option value="6">BRANCO</option><option value="11">CINZA</option><option value="15">DOURADO</option><option value="10">LARANJA</option><option value="5">MARROM</option><option value="23">METALICO</option><option value="17">PEROLA</option><option value="25">PEROLIZADO</option><option value="7">PRATA</option><option value="3">PRETO</option><option value="18">ROSA</option><option value="8">ROXO</option><option value="24">SOLIDO</option><option value="9">VERDE</option><option value="4">VERMELHO</option><option value="20">VINHO</option><option value="16">VÁRIAS</option></select>
+
+
+</fieldset></form>        
+              
+      
+      </div>
+      </div>
+      <div id="conteudo">
+      <div id="lateral">
+      	<h2>marcas</h2>
+        <ul>
+            <li><a href="#">Audi (13)</a></li>
+            <li><a href="#">BMW (5)</a></li>
+            <li><a href="#">Buggy BRM (2)</a></li>
+            <li><a href="#">Chevrolet (430)</a></li>
+            <li><a href="#">Citroën (30)</a></li>
+            <li><a href="#">Daewoo (1)</a></li>
+            <li><a href="#">Dodge (6)</a></li>
+        </ul>
+      	<h2>categoria</h2>
+      	<ul>
+      	  <li><a href="#"> Esportivo Utilitário  (2)</a></li>
+      	  <li><a href="#"> Hatch (28)</a></li>
+      	  <li><a href="#"> Monovolume (3)</a></li>
+      	  <li><a href="#"> Picapes (5)</a></li>
+      	  <li><a href="#"> Sedan/Coupe (8)</a></li>
+      	  <li><a href="#"> Wagon/Perua (4)</a></li>
+   	    </ul>
+      </div>
+      <div id="principal">
+        <h2>compre seu automóvel</h2>
+        <ul id="anuncio_capa" class="fade-area-1">
+        <li><a href="#"><img src="images/honda_civic.jpg" alt="honda civic 1.8" />
+          HONDA CIVIC 1.8 ano: 2005
+          <span>R$ 53.500,00</span></a></li>
+
+        <li><a href="#"><img src="images/honda_civic.jpg" alt="honda civic 1.8" />
+          HONDA CIVIC 1.8 ano: 2005
+          <span>R$ 53.500,00</span></a></li>
+
+        <li><a href="#"><img src="images/nsei.jpg" alt="honda civic 1.8" />
+          HONDA CIVIC 1.8 ano: 2005
+          <span>R$ 53.500,00</span></a></li>
+
+        <li><a href="#"><img src="images/celta.jpg" alt="honda civic 1.8" />
+          HONDA CIVIC 1.8 ano: 2005
+          <span>R$ 53.500,00</span></a></li>
+
+        <li><a href="#"><img src="images/honda_civic.jpg" alt="honda civic 1.8" />
+          HONDA CIVIC 1.8 ano: 2005
+          <span>R$ 53.500,00</span></a></li>
+
+        <li><a href="#"><img src="images/nsei.jpg" alt="honda civic 1.8" />
+          HONDA CIVIC 1.8 ano: 2005
+          <span>R$ 53.500,00</span></a></li>
+
+        <li><a href="#"><img src="images/celta.jpg" alt="honda civic 1.8" />
+          HONDA CIVIC 1.8 ano: 2005
+          <span>R$ 53.500,00</span></a></li>
+
+        <li><a href="#"><img src="images/honda_civic.jpg" alt="honda civic 1.8" />
+          HONDA CIVIC 1.8 ano: 2005
+          <span>R$ 53.500,00</span></a></li>
+        </ul>
+      <div id="banner_publicidade"></div>
+	  <script type="text/javascript">
+			// <![CDATA[
+			
+			var so = new SWFObject("swf/COR989_20100622102509.swf", "banner_publicidade", "609", "90", "9");
+			so.addParam("scale", "noscale");
+			so.addParam("wmode", "opaque");
+			so.write("banner_publicidade");
+			
+			// ]]>
+        </script>
+
+        <h2>mais buscados</h2>
+        <ul class="tagcloud">
+            <li><a href="#"
+             style="font-size: 13px; color: #b8b8b8;"
+             title="Citroen">Citroen</a></li>
+            <li><a href="#"
+             style="font-size: 11px; color: #a0a0a0;"
+             title="Citroen">Citroen</a></li>
+            <li><a href="#"
+             style="font-size: 16px; color: #cfcfcf;"
+             title="Fiat">Fiat</a></li>
+            <li><a href="#"
+             style="font-size: 16px; color: #cfcfcf;"
+             title="Fiat">Fiat</a></li>
+            <li><a href="#"
+             style="font-size: 20px; color: #999;"
+             title="Ford">Ford</a></li>
+            <li><a href="#"
+             style="font-size: 20px; color: #999;"
+             title="Ford">Ford</a></li>
+            <li><a href="#"
+             style="font-size: 13px; color: #b8b8b8;"
+             title="General Motors">General Motors</a></li>
+            <li><a href="#"
+             style="font-size: 21px; color: #a0a0a0;"
+             title="General Motors">General Motors</a></li>
+            <li><a href="#"
+             style="font-size: 18px; color: #ccc;"
+             title="Honda">Honda</a></li>
+            <li><a href="#"
+             style="font-size: 11px; color: #a0a0a0;"
+             title="Honda">Honda</a></li>
+            <li><a href="#"
+             style="font-size: 13px; color: #b8b8b8;"
+             title="Peugeot">Peugeot</a></li>
+            <li><a href="#"
+             style="font-size: 11px; color: #a0a0a0;"
+             title="Peugeot">Peugeot</a></li>
+            <li><a href="#"
+             style="font-size: 13px; color: #b8b8b8;"
+             title="Renault">Renault</a></li>
+            <li><a href="#"
+             style="font-size: 18px; color: #ccc;"
+             title="Renault">Renault</a></li>
+            <li><a href="#"
+             style="font-size: 20px; color: #999;"
+             title="Toyota">Toyota</a></li>
+            <li><a href="#"
+             style="font-size: 11px; color: #a0a0a0;"
+             title="Toyota">Toyota</a></li>
+            <li><a href="#"
+             style="font-size: 11px; color: #a0a0a0;"
+             title="Troller">Troller</a></li>
+            <li><a href="#"
+             style="font-size: 20px; color: #999;"
+             title="Troller">Troller</a></li>
+            <li><a href="#"
+             style="font-size: 20px; color: #999;"
+             title="Volkswagen">Volkswagen</a></li>
+            <li><a href="#"
+             style="font-size: 20px; color: #999;"
+             title="Volkswagen">Volkswagen</a></li>
+            </ul>
+        <div id="noticias">
+        <h2>notícias</h2>
+        <ul>
+        <li><a href="#"><img src="images/celtavermelho.jpg" width="135" height="85" border="0" /></a>
+          <h3><a href="#">Celta é o carro com o maior valor de revenda</a></h3>
+          <span>Fev 13, 2010  |  por: Nonin</span>
+          <p><a href="#">Na hora de comprar um zero quilômetro, tem gente que valoriza o estilo do carro, outros fazem questão de um motor potente, enquanto alguns elegem como prioridade o conforto. Mas tem um item que é imperioso na decisão de compra do consumidor brasileiro, principalmente no segmento dos carros pequenos: a depreciação. </a></p>
+        </li>
+        
+       <li><a href="#"><img src="images/aaaaaa.jpg" width="135" height="85" /></a>
+         <h3><a href="#">Mini vai produzir em série o conceito Beachcomber</a></h3>
+         <span>Fev 13, 2010  |  por: Nonin</span>
+         <p><a href="#">Pellentesque tincidunt, diam eget accumsan posuere, est sapien rhoncus nunc, feugiat fermentum urna arcu ut est. Sed bibendum dolor eu orci. </a></p>
+       </li>
+        
+        <li><a href="#"><img src="images/bbb.JPG" width="135" height="85" /></a>
+          <h3><a href="#">Mini vai produzir em série o conceito Beachcomber</a></h3>
+          <span>Fev 13, 2010  |  por: Nonin</span>
+          <p><a href="#">Na hora de comprar um zero quilômetro, tem gente que valoriza o estilo do carro, outros fazem questão de um motor potente, enquanto alguns elegem como prioridade o conforto. Mas tem um item que é imperioso na decisão de compra do consumidor brasileiro, principalmente no segmento dos carros pequenos: a depreciação. </a></p>
+        </li>
+        </ul>
+        <a class="leia_mais"href="#">exibir mais <img src="global/images/btn.jpg" width="12" height="6" /></a>
+        </div>
+      </div>
+  	</div>
+  	</div>
+  <div class="clear"></div>
+  <div id="rodape">
+      <div id="rodape_conteudo">
+        <div id="twitter">
+        <h3>No Twitter</h3>
+        <p>nononononn nononononn nononononn nononononn nononononn nononononn nononononn </p>
+        <p>nononononn nononononn nononononn nononononn nononononn nononononn nononononn </p>
+        <p>nononononn nononononn nononononn nononononn nononononn nononononn nononononn </p>
+        <span>Seguir @automóvelnaweb no Twitter</span>
+        </div>
+
+        <div id="institucional">
+        <h3>Institucional</h3>
+        <ul>
+        	<li>Quem somos</li>
+            <li>Imprensa</li>
+            <li>Publicidade</li>
+            <li>Termos de uso</li>
+            <li>Política de Privacidade</li>
+        </ul>
+        </div>
+        
+        <div id="comprar_vender">
+        <h3>Compra e Venda</h3>
+        <ul>
+            <li>Comprar automóvel</li>
+            <li>Vender automóvel</li>
+            <li>Compra Segura</li>
+            <li>Dicas de venda</li>
+        </ul>
+        <ul>
+            <li>Carros mais buscados</li>
+            <li>Vender automóvel</li>
+            <li>Vender automóvel</li>
+            <li>Vender automóvel</li>
+        </ul>
+        </div>
+      <a href="#" id="social">Redes Sociais</a>
+      <div id="sobre">© 2010 <a href="http://automovelnaweb.com.br">Automóvel na Web</a> | Todos os direitos reservados</div>
+      </div>
+  </div>
+  </div>

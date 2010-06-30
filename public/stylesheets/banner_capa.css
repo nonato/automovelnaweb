@@ -1,0 +1,118 @@
+@charset "utf-8";
+/*
+Theme Name: Automóvel na Web
+Theme URI: http://www.automovelnaweb.com.br/
+Description: Classificados online para Compra e Venda de carros, acessórios e Serviços Automotivos.
+Author: Design/Implementação : Rebeca Pacheco | Sistema: Eudaldo Nonato
+*/
+
+.scrollable {
+	position:relative;
+	overflow:hidden;
+	width: 868px;
+	height:253px;
+	border-top:#e0e1dc 1px solid;
+	border-bottom:#e0e1dc 1px solid;
+}
+
+.scrollable .items {
+	width:20000em;
+	position:absolute;
+	clear:both;
+}
+
+.items div {
+	float:left;
+	width:869px;
+}
+
+/* single scrollable item */
+.scrollable img {
+	float:left;
+	width:869px;
+	height:253px;
+}
+
+/* active item */
+.scrollable .active {
+	position:relative;
+	cursor:default;
+}
+
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+	float:left;	
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+	background:url(../images/global/hori_large.png) no-repeat;
+	display:block;
+	width:36px;
+	height:255px;
+	float:left;
+	cursor:pointer;
+}
+
+/* right */
+a.right 				{ background-position: 0 -255px; clear:right; margin-right: 0px;}
+a.right:hover 		{ background-position:-37px -255px; }
+a.right:active 	{ background-position:-74px -255px; } 
+
+
+/* left */
+a.left				{ margin-left: 0px; } 
+a.left:hover  		{ background-position:-36px 0; }
+a.left:active  	{ background-position:-74px 0; }
+
+/* up and down */
+a.up, a.down		{ 
+	background:url(../images/global/scrollable/arrow/vert_large.png) no-repeat; 
+	float: none;
+	margin: 10px 50px;
+}
+
+/* up */
+a.up:hover  		{ background-position:-36px 0; }
+a.up:active  		{ background-position:-60px 0; }
+
+/* down */
+a.down 				{ background-position: 0 -36px; }
+a.down:hover  		{ background-position:-36px -36px; }
+a.down:active  	{ background-position:-60px -36px; } 
+
+
+/* disabled navigational button 
+a.disabled {
+	visibility:hidden !important;
+} */	
+
+/* position and dimensions of the navigator */
+.navi {
+	height:20px;
+	float:right;
+	position:relative;
+	margin:220px 20px 0 0;
+}
+
+
+/* items inside navigator */
+.navi a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	background:url(../images/global/navigator.png) 0 0 no-repeat;
+	display:block;
+}
+
+/* mouseover state */
+.navi a:hover {
+	background-position:0 -8px;      
+}
+
+/* active state (current page state) */
+.navi a.active {
+	background-position:0 -16px;     
+}

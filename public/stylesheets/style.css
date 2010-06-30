@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*
+Theme Name: Automóvel na Web
+Theme URI: http://www.automovelnaweb.com.br/
+Description: Classificados online para Compra e Venda de carros, acessórios e Serviços Automotivos.
+Author: Design/Implementação : Rebeca Pacheco | Sistema: Eudaldo Nonato
+*/
+html, body {width:100%}
+body, h1, h2, h3, h4, h5, h6, blockquote, p, form, fieldset, legend, dl, dt, dd, ul, li { margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 { line-height:2em}
+h2 {font-size:24px; font-weight:normal}
+h3 {font-size:18px; font-weight:normal}
+:focus {  -moz-outline-style:none;}
+body {margin:0; background:#f0f0ea url(../images/global/bg_topo.jpg) repeat-x top; font-family:Georgia, "Times New Roman", Times, serif; font-size:11px; color:#333}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none}
+ins {text-decoration: none}
+del {text-decoration: line-through}
+table {border-collapse: collapse; border-spacing: 0}
+img {border:0;}
+address {font-style: normal}
+form {margin:0;	padding:0;}
+form a {color:#FF712D;}
+form a:hover {text-decoration:underline;}
+fieldset {border:0;}
+legend {display:none;}
+p {color:#010101; line-height:1.5em}
+a {text-decoration:none; color:#333; outline: none;}
+a:visited {text-decoration:none; color:#333}
+a:hover {text-decoration:none; color:#666}
+
+.clear {clear:both}
+#geral{overflow:hidden; position:relative;}
+#geral_conteudo{ width: 941px; margin:0 auto;}
+#geral #topo{ height:112px}
+#geral #logo a {text-indent: -999%; margin:50px auto 0; width:372px; height:118px; background: url(../images/global/logo.png) no-repeat; display:block;}
+
+#login { margin:-150px 0; position: relative; float:right;}
+#content { width:520px; min-height:520px; }
+#topnav {padding:10px 0px 12px; font-size:11px; line-height:23px; text-align:right; color:#fff}
+#topnav a.signin { background:#3f3f3f; padding:4px 6px 6px; text-decoration:none; font-weight:bold; color:#fff; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; }
+#topnav a.signin:hover { background:#909090; }
+a.signin { position:relative; margin-left:3px; }
+a.signin span { background:url(../images/global/toggle_down_light.png) no-repeat; background-position: 100% 50%; padding:4px 16px 6px 0;}
+#topnav a.menu-open { background:#eaeaea!important; color:#666!important; outline:none;}
+#small_signup { display:inline; float:none; line-height:23px; margin:25px 0 0; width:170px; }
+a.signin.menu-open span { background:url(../images/global/toggle_up_dark.png) no-repeat; background-position: 100% 50%; color:#333;}
+
+#signin_menu { -moz-border-radius-topleft:5px; -moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px; -webkit-border-top-left-radius:5px; -webkit-border-bottom-left-radius:5px; -webkit-border-bottom-right-radius:5px; display:none; background:#eaeaea; position:absolute; width:210px; z-index:100; border:1px transparent; text-align:left; padding:12px; top: 24.5px; 
+ right: 0px; margin-top:5px; margin-right: 0px; color:#333; font-size:11px; }
+#signin_menu input[type=text], #signin_menu input[type=password] {display:block; -moz-border-radius:4px; -webkit-border-radius:4px; border:1px solid #ccc; font-size:13px; margin:0 0 5px; padding:5px; width:203px;}
+#signin_menu label { font-weight:normal;}
+#signin_menu p.remember { padding:10px 0;}
+#signin_menu p.forgot, #signin_menu p.complete { clear:both; margin:5px 0;}
+#signin_menu p a { color:#333!important;}
+#signin_submit { -moz-border-radius:4px; -webkit-border-radius:4px; background:#39d url(../images/global/bg-btn.png) repeat-x scroll 0 0; border:1px solid #888; color:#fff; text-shadow:0 -1px 0 #333; padding:4px 10px 5px; font-size:11px; margin:0 5px 0 0; font-weight:bold;}
+#signin_submit:hover, #signin_submit:focus { background-position:0 -5px; cursor:pointer;}
+.tipsy { padding: 5px; font-size: 11px; font-family:Arial, Helvetica, sans-serif; opacity: 0.8; filter: alpha(opacity=80); background-repeat: no-repeat; }
+  .tipsy-inner { padding: 4px 5px; background-color: black; color: white; max-width: 200px; text-align: center; }
+  .tipsy-north { background-image: url(../images/global/tipsy-north.gif); background-position: top center; }
+  .tipsy-south { background-image: url(../images/global/tipsy-south.gif); background-position: bottom center; }
+  .tipsy-east { background-image: url(../images/global/tipsy-east.gif); background-position: right center; }
+  .tipsy-west { background-image: url(../images/global/tipsy-west.gif); background-position: left center; }
+
+
+#menu {width:100%; float:left;}
+#geral #menu ul.topnav {font-size: 1.2em; margin:0 auto; width:750px}
+#geral #menu ul.topnav li {float: left; margin: 0; border-left: 1px solid #ececec; border-right: 1px solid #ececec;}
+#geral #menu ul.topnav li a{padding: 18px 15px 18px ; text-decoration: none; float: left;}
+#geral #menu ul.topnav li a:hover{ background: url(../images/global/topnav_hover.jpg) repeat-x center top;}
+
+#banner_principal{ margin:20px 0; float:left;}
+#nav_direita{ width:36px; height:255px; background:url(../images/global/banner_direita.jpg); float:left}*/
+#busca {float:left; width:100%; }
+#geral #busca fieldset, #busca fieldset span { float:left; width:100%; height:85px}
+#geral #busca fieldset { background:url(../images/global/buscar_top.png) no-repeat; }
+#geral #busca fieldset span { background:url(../images/global/buscar_bg.jpg) repeat-y; margin:8px 0}
+.busca{ background:url(../images/global/buscar.png) no-repeat; width:97px; height:35px; text-indent:-900px; margin:25px; float:left}
+.tipoBusca, .pesq_marca { margin:30px 10px; float:left;}
+
+#busca_detalhada span{ text-align:center; float:left; background:url(../images/global/bg_busca_detalhada.jpg) repeat-y; width:100%; padding:10px 0; height:14px;}
+#busca_detalhada .tgl { border-left:#ccccc4 solid 1px; border-right:#ccccc4 solid 1px; border-bottom:#ccccc4 solid 1px; width:100%; float:left; width:899px; background:#f0f0ee; padding:20px }
+#busca_detalhada form{ padding:20px 0}
+#busca_detalhada label{ line-height:3.5em}
+
+#conteudo { background:url(../images/global/bg_lateral.jpg) repeat-y; border-left:#ccccc4 solid 1px; border-right:#ccccc4 solid 1px; float:left; width:939px; float:left}
+#conteudo #lateral {width:240px; padding:20px; float:left}
+#conteudo #lateral ul{ margin:0 20px;}
+#conteudo #lateral li{ margin:15px; list-style-image:url(../images/global/marcador.jpg)}
+#conteudo #lateral h2{ border-bottom: #eaeaea solid 1px;}
+
+#conteudo #principal { background:#FFF; float:left; padding:20px; width:619px;}
+#conteudo #principal #anuncio_capa { margin:-10px;}
+#conteudo #principal #anuncio_capa li { width:137px; margin:10px; text-align:justify; float:left; display:block}
+#conteudo #principal #anuncio_capa li span{ font-size:20px; color:#e40000; margin:10px 0; float:left}
+#conteudo #principal #anuncio_capa img { border:solid 1px #d4d4d4 }
+
+#conteudo #principal .tagcloud { text-align:justify;}
+#conteudo #principal .tagcloud li { display: inline; white-space: nowrap; }
+#conteudo #principal .tagcloud li a { padding: 0 0.2em 0 0.2em; text-decoration: none;}
+#conteudo #principal .tagcloud li a:hover { color:#222!important}
+
+#conteudo #principal #noticias { background:url(../images/global/bg_noticias.jpg) repeat-x; margin: 30px 0; padding:10px 20px}
+#conteudo #principal #noticias img { float:left; margin:10px 5px 0 0; border:1px solid #ececec;}
+#conteudo #principal #noticias p { margin:10px 0; padding: 10px 0; text-align:justify; border-bottom:1px solid #ececec;}
+#conteudo #principal #noticias .leia_mais { width:100%; background:#e7e7df; padding:5px 0; text-align:center; display:block  }
+#conteudo #principal #noticias .leia_mais img { margin:0 5px; float:none}
+
+#rodape{ background:url(../images/global/bg_rodape.jpg) repeat-x #282828; width:100%; height:371px; margin-bottom:-10px;}
+#rodape #rodape_conteudo { width:921px; color:#fff;  margin:0 auto; padding: 50px 10px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+#rodape #rodape_conteudo #twitter{ width:250px; float:left }
+#rodape #rodape_conteudo #twitter p{ color:#606060; border-bottom:solid 1px #424242; padding:10px 0}
+#rodape #rodape_conteudo #twitter span{ color:#999; display:block; margin:20px 0}
+#rodape #rodape_conteudo #institucional{ width:250px; margin:0 40px; float:left;}
+#rodape #rodape_conteudo #institucional ul li{ color:#606060; border-bottom:solid 1px #424242; padding:5px 0; list-style-image:url(../images/global/marcador_rodape.jpg); margin: 0 15px; text-indent:10px}
+#rodape #rodape_conteudo #comprar_vender{ float:left;}
+#rodape #rodape_conteudo #comprar_vender ul{ float:left; width:170px}
+#rodape #rodape_conteudo #comprar_vender ul li{ color:#606060; border-bottom:solid 1px #424242; padding:5px 0; list-style-image:url(../images/global/marcador_rodape.jpg); margin: 0 15px; text-indent:10px}
+#rodape #rodape_conteudo #social{ background:url(../images/global/social.png) no-repeat right; width:335px; height:30px; text-indent:-900px; float:left; margin:50px 0}
+#rodape #rodape_conteudo #sobre{ width:100%; float:left; margin:5px 0 0 0; text-align:right}
+#rodape #rodape_conteudo #sobre a{ color:#CCC;}
+#rodape #rodape_conteudo #sobre a:hover{ color:#999; text-decoration:underline}

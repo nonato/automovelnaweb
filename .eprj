@@ -29,7 +29,7 @@
             <key>inde</key>
             <string>..\projeto_automoveis\app\views\admin_area\forum_categories\index.html.erb</string>
             <key>index</key>
-            <string>..\projeto_automoveis\app\views\admin_area\forum_topics\index.html.erb</string>
+            <string>app\views\main\index.html.erb</string>
             <key>maker</key>
             <string>app\models\maker.rb</string>
             <key>new</key>
@@ -41,7 +41,7 @@
             <key>ro</key>
             <string>..\projeto_automoveis\config\routes.rb</string>
             <key>rou</key>
-            <string>..\projeto_automoveis\config\routes.rb</string>
+            <string>config\routes.rb</string>
             <key>rout</key>
             <string>..\projeto_automoveis\config\routes.rb</string>
             <key>route</key>
